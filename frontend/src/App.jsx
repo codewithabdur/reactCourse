@@ -4,7 +4,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Homepage from "./Homepage"
-import {Error} from "./Container"
+import {Error, AllBlogs} from "./Container"
 
 const App = () => {
 
@@ -12,6 +12,10 @@ const App = () => {
     {
       path: "/",
       element: <Homepage />,
+    },
+    {
+     path: "/blogs",
+     element: <AllBlogs />
     },
     {
       path: "*",

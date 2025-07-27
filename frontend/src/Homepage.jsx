@@ -1,8 +1,14 @@
+import {Navbar, Footer, Contact} from "./Component"
+import {Hero,Blogs} from "./Container"
+
 const Homepage = () =>{
     return (
         <>
-        <h1 className="text-[#f00]">Welcome to the Homepage</h1>
-        <p>This is the main page of our application.</p>
+        <Navbar />
+        <Hero />
+        <Blogs />
+        <Contact />
+        <Footer />
         </>
     )
 }
