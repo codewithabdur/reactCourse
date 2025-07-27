@@ -9,7 +9,7 @@ const Blogs = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("https://codewithabdur.onrender.com/");
+      const response = await fetch("You-data-url");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
