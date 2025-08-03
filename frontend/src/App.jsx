@@ -14,8 +14,8 @@ const App = () => {
       element: <Homepage />,
     },
     {
-     path: "/blogs",
-     element: <AllBlogs />
+      path: "/blogs",
+      element: <AllBlogs />,
     },
     {
       path: "*",

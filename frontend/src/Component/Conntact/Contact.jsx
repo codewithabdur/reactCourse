@@ -9,6 +9,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // console.log(formData)
     // Here you would typically handle form submission, e.g., sending data to a server
     const url = "https://example.com/api/contact"; // Replace with your API endpoint
     try{
@@ -43,7 +44,7 @@ const Contact = () => {
 
   return (
     <section className="py-20 px-6 bg-gray-900">
-      <h3 className="text-3xl font-bold mb-8 text-center">Contact Us</h3>
+      <h3 className="text-3xl font-bold mb-8 text-[#fff] text-center">Contact Us</h3>
       <form onSubmit={handleSubmit} className="max-w-xl mx-auto space-y-6">
         <input
           type="text"
